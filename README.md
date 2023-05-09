@@ -10,4 +10,6 @@ $ make lint
 
 Launch games <br>
 $ make brain-even <br>
-https://asciinema.org/connect/e80bd5dc-20d0-4ca9-b39b-24f58298f451
+### Brain-even:
+[![asciicast](https://asciinema.org/a/pzYEqPt5TfwuKt5UttBXJ04yx.svg)](https://asciinema.org/a/pzYEqPt5TfwuKt5UttBXJ04yx)
+)
