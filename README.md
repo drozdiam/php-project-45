@@ -3,11 +3,11 @@
 Setup
 $ git clone https://github.com/NickShelud/php-project-45
 
-$ make install
+$ make install<br>
 
-Make lint
+Make lint <br>
 $ make lint
 
-Launch games
-$ make brain-even
+Launch games <br>
+$ make brain-even <br>
 https://asciinema.org/connect/e80bd5dc-20d0-4ca9-b39b-24f58298f451
