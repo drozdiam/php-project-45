@@ -3,13 +3,13 @@
     "description": "project brain games",
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/Numbers.php"
         ]
     },
     "bin": [
         "bin/brain-games",
         "bin/brain-even"
-
     ],
     "authors": [
         {
