@@ -4,7 +4,10 @@ Setup
 $ git clone https://github.com/NickShelud/php-project-45
 
 $ make install
+
 Make lint
 $ make lint
+
 Launch games
 $ make brain-even
+https://asciinema.org/connect/e80bd5dc-20d0-4ca9-b39b-24f58298f451
