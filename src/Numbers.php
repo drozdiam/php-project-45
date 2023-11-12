@@ -4,6 +4,7 @@ namespace BrainGames\Numbers;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use function BrainGames\Questions\questions;
 use function cli\line;
 use function cli\prompt;
 
@@ -11,9 +12,7 @@ function game()
 {
     $arr = ['yes', 'no'];
     $i = 0;
-    line('Welcome to the Brain Game!');
-    $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    $name = questions();
     line('Answer "yes" if the number is even, otherwise answer "no".');
 
     while ($i < 3) {
@@ -26,12 +25,12 @@ function game()
                     line('Correct!');
                     $i++;
                 } else {
-                    line("'yes' is wrong answer ;(. Correct answer was 'no'.Let's try again, "   . $name . "!");
+                    line("'$answer' is wrong answer ;(. Correct answer was '$value'.Let's try again, "   . $name . "!");
                     break 2;
                 }
             }
         }
 
-        line($i == 3 ? "Congratulations, " . $name : '');
+        line($i == 3 ? "Congratulations, " . $name . '!' : '');
     }
 }

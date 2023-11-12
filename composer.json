@@ -4,17 +4,20 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/Numbers.php"
+            "src/Numbers.php",
+            "src/Calc.php",
+            "src/Questions.php"
         ]
     },
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "authors": [
         {
-            "name": "MikkyBloom",
-            "email": "miharetyt@gmail.com"
+            "name": "ilya",
+            "email": "drozd@gmail.com"
         }
     ],
     "require": {
